@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<definitions targetNamespace="urn:ManufacturedAutomobile"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:tns="urn:ManufacturedAutomobile"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
+             xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/">
+  <types>
+    <xsd:schema targetNamespace="urn:ManufacturedAutomobile/types"
+                elementFormDefault="qualified"/>
+  </types>
+  <portType name="ManufacturedAutomobile">
+    <operation name="create">
+      <input message="undefined_message"/>
+      <output message="undefined_message"/>
+    </operation>
+  </portType>
+</definitions>

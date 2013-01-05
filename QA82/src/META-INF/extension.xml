@@ -1,0 +1,7 @@
+<extension id="QA82" version="1.0" esdk-version="1.0" rsbundle-class="QA82.Res"
+           xmlns="http://jcp.org/jsr/198/extension-manifest">
+  <name>${EXTENSION_NAME}</name>
+  <hooks>
+    <!-- TODO Declare functionality provided by the QA82 extension. -->
+  </hooks>
+</extension>
